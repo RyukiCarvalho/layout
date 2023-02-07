@@ -3,188 +3,173 @@
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
 -->
-<html lang ="pt-br" >
+<html lang="pt-br">
     <head>
-        <title>Formulário do Contato</title>
+        <title>Formulário de Contato</title>
         <meta charset="UTF-8">
-        <meta name="Ryuki" content="Prof.jair ferraz">
-        <meta name="keywords" content="responsivo, css3,html5. Senac tech">
-        <meta name="descpription" content="Layout de página responsica com HTML5 e CSS3">
-        <meta name="viewpot" content="widh=device-widt, intial-scale=1.0">
-        <link rel="stylesheet" href="estilo.css">
+        <meta name="author" content="Lucas Dornelles">
+        <meta name="keyords" content="responsividade, css3, html5.senac Tech">
+        <meta name="description" content="Layout de página responsiva com HTML5 e CSS3"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
         <script src="validador.js"></script>
+
+
     </head>
     <body>
         <header>
-            <h1>
-                Formulário do Contato
-            </h1>
+            <h1>Formulário de Contato</h1>
         </header>
-
-        <nav>   
-            <ul>    
-                <li> <a href="index.html">Home</a></li>
-                <li> <a href="#">Conteudo</a></li>
-                <li> <a href="#">Galeria</a></li>
-                <li> <a href="Contato.html">Contato</a></li>
-            </ul> 
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Conteúdo</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="contato.html" >Contato</a></li>
+            </ul>
         </nav>
+        <div class="container">
+            <div class="esquerda">
+                <h2>Contato:</h2>
+                <p>
+                    <i class="bi bi-telephone-outbound"></i>
+                    <a href="tel:+555133443344"> (51) 3344-3344</a>
+                </p>
+                <p>
+                    <i class="bi bi-whatsapp"></i>
+                    <a href="https://wa.me/5551999889988?text=Estou+entrando+em+contato+pelo+site" target="_blank"> (51) 999889988</a>
+                </p>
+                <p>
+                    <i class="bi bi-envelope-at"></i>
+                    <a href="mailto:contato@fulanodetal.com.br"> contato@fulanodetal.com.br</a>
+                </p>
+                <p>
+                    <i class="bi bi-geo-alt"></i>
+                    <a href="https://goo.gl/maps/duLZM1xmBFAB1hNRA" target="_blank">Av. Venâncio Aires, 93 - Cidade Baixa, Porto Alegre - RS, 90040-191</a>
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13815.16645767556!2d-51.22919258261719!3d-30.0428357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978567f17f28d%3A0x2c2c5272bacf4d3a!2sSenac%20Tech!5e0!3m2!1spt-BR!2sbr!4v1672075746111!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div><!--fim da div esquerda-->
+            <div class="conteudo"> 
+                <h2>Formulário</h2>
+                <form name="formUser">
+                    <div class="row">
+                        <div class="label">
+                            <label for="nome">Nome Completo:</label>
 
-          <div class="container">  
-        <div class="esquerda">
-            <h2>Contato:</h2> 
-            <p> 
-                <i class="bi bi-telephone-outbound"></i> 
-                <a href="tel: +555133443344">(51)3344-3344</a> 
-            </p>     
+                        </div>
+                        <div class="input">
+                            <input type="text" name="nome" id="nome">
 
-            <p>
-                <i class="bi bi-whatsapp"></i>  
-                <a href="https://wa.me/5551999889988?text=Estou+entrando+em+contato+pelo+site"target="_blank">(51)99988-9988</a> 
-            </p>
+                        </div>
+                    </div><!-- fim da row -->
 
-            <p>   
-                <i class="bi bi-envelope-at"></i>
-                <a href="contato01@email.com.br">contato01@email.com.br</a>
-            </p>    
+                    <div class="row">
+                        <div class="label">
+                            <label for="email">e-mail:</label>
 
-            <p>
-                <i class="bi bi-geo-alt"></i> 
-                <a href="https://goo.gl/maps/2orHeLpVKztp8Mgt6"target="_blank">Av. Venâncio Aires, 93 - Cidade Baixa, Porto Alegre - RS, 90040-191</a>
-            </p>
-
-            <p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.791777186263!2d-51.22146782371783!3d-30.042831031202912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978567f17f28d%3A0x2c2c5272bacf4d3a!2sSenac%20Tech!5e0!3m2!1spt-BR!2sbr!4v1672075792877!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </p>    
-
-        </div><!-- fim da div esquerda -->   
-        <div class="conteudo"> 
-            <h2>Formulário</h2> 
-            <form name="formUser"> 
-                <div class="row"> 
-                    <div class="label">
-                        <label for="Nome">Nome Completo</label>
-                    </div>
-                    <div class="input">
-                        <input type="text" name="nome" id="Nome">
-                    </div>    
-
-                </div>  <!--fim da row --> 
-
-                <div class="row">
-                    <div class="label">
-                        <label for="email">E-mail:</label>
-
-                    </div>
-                    <div class="input">
-                        <input type="email" name="email" id="email">
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="label">
-                        <label for="fone">Telefone:</label>
-                    </div>
-                    <div class="input">
-                        <input type="text" name="fone" id="fone"oninput="mascaraTel(this)">
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="label">
-                        <label for="end">Endereço:</label>
-                    </div>
-                    <div class="input">
-                        <input type="text" name="end" id="end">
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="label">
-                        <label for="nome">Tipo pessoa:</label>
-                    </div>
-                    <div class="input">
-                        <input type="radio" name="tpPessoa" id="tpCPF"
-                               onclick="document.getElementById('divCPF').style.visibility = 'visible';
-                                       document.getElementById('divCNPJ').style.visibility = 'hidden';
-                                       document.getElementById('CNPJ').value = '';
-                                       document.getElementById('CPF').focus();">
-                        <label for="tpCPF">CPF</label>
-                        <input type="radio" name="tpPessoa" id="tpCNPJ" 
-                               onclick ="document.getElementById('divCPF').style.visibility = 'hidden';
-                                       document.getElementById('divCNPJ').style.visibility = 'visible';
-                                       document.getElementById('CPF').value = '';
-                                       document.getElementById('CNPJ').focus();">
-                        <label for="tpCNPJ">CNPJ</label>
-                    </div>
-                </div>
-                <div class="row" id="divCPF" style="visibility: hidden">
-                    <div class="label">
-                        <label for="CPF">CPF:</label>
-                    </div>
-                    <div class="input">
-                        <input type="text" name="CPF" id="CPF" oninput="mascaraCPF(this)">
-                    </div>
-                </div>
-                <div class="row" id="divCNPJ" style="visibility: hidden">
-                    <div class="label">
-                        <label for="CNPJ">CNPJ:</label>
-                    </div>
-                    <div class="input">
-                        <input type="text" name="CNPJ" id="CNPJ" oninput="mascaraCNPJ(this)">
+                        </div>
+                        <div class="input">
+                            <input type="email" name="email" id="email">
+                        </div>
                     </div>
 
-
-
-                </div>
-
-                <div class="row">
-                    <div class="label">
-                        <label for="senha">Senha:</label>
+                    <div class="row">
+                        <div class="label">
+                            <label for="fone">Telefone:</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="fone" id="fone" oninput="mascaraTel(this)">
+                        </div>
                     </div>
-                    <div class="input">
-                        <input type="password" name="senha" id="senha">
+
+                    <div class="row">
+                        <div class="label">
+                            <label for="end">Endereço:</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="end" id="end">
+                        </div>
                     </div>
-                </div>
 
-                <div class="row">
-                    <div class="label">
-                        <label for="confSenha">Confirme senha:</label>
+                    <div class="row">
+                        <div class="label">
+                            <label for="nome">Tipo pessoa:</label>
+                        </div>
+                        <div class="input">
+                            <input type="radio" name="tpPessoa" id="tpCPF" 
+                                   onclick="document.getElementById('divcpf').style.visibility = 'visible';
+                                            document.getElementById('divcnpj').style.visibility = 'hidden';
+                                            document.getElementById('cnpj').value = '';
+                                            document.getElementById('cpf').focus();">
+                            <label for="tpCPF">CPF</label>
+                            <input type="radio" name="tpPessoa" id="tpCNPJ" 
+                                   onclick="document.getElementById('divcpf').style.visibility = 'hidden';
+                                            document.getElementById('divcnpj').style.visibility = 'visible';
+                                            document.getElementById('cpf').value = '';
+                                            document.getElementById('cnpj').focus();">
+                            <label for="tpCNPJ">CNPJ</label>
+                        </div>
                     </div>
-                    <div class="input">
-                        <input type="password" name="confSenha" id="confSenha">
+
+                    <div class="row" id="divcpf" style="visibility: hidden">
+                        <div class="label">
+                            <label for="cpf">CPF:</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="cpf" id="cpf" oninput="mascaraCPF(this)">
+                        </div>
                     </div>
-                </div>
 
-                <div class="row">
-                    <div class="label">
-                        <label for="foto">Foto perfil:</label>
+                    <div class="row" id="divcnpj" style="visibility: hidden">
+                        <div class="label">
+                            <label for="cnpj">CNPJ:</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="cnpj" id="cnpj" oninput="mascaraCNPJ(this)">
+                        </div>
                     </div>
-                    <div class="input">
-                        <input type="file" name="imgUser" id="imgUser">
+
+                    <div class="row">
+                        <div class="label">
+                            <label for="senha">Senha:</label>
+                        </div>
+                        <div class="input">
+                            <input type="password" name="senha" id="senha">
+                        </div>
                     </div>
-                </div>
-                <div id="imgPreview">
-                    <img src="" id="preview"/>
-                </div>
-                <div class="row">
-                    <input type="reset" value="Limpar">
-                    <input type="submit" value="Enviar" onclick="return validar()" >
-                </div>   
 
-            </form>  
-        </div> <!--fim div conteudo-->
-        <div class="footer"> 
-            <h2>Footer- Rodapé</h2> 
-            <br/> 
-            &COPY; Todos os direitos reservados. Ryuki.
+                    <div class="row">
+                        <div class="label">
+                            <label for="confSenha">Confirme senha:</label>
+                        </div>
+                        <div class="input">
+                            <input type="password" name="confSenha" id="confSenha">
+                        </div>
+                    </div>
 
-
-
-
-        </div><!-- fim div conteúdo -->  
-    </div><!-- fim do container --> 
-
-</body>
+                    <div class="row">
+                        <div class="label">
+                            <label for="foto">Foto perfil:</label>
+                        </div>
+                        <div class="input">
+                            <input type="file" name="imgUser" id="imgUser">
+                        </div>
+                    </div>
+                    <div id="imgPreview">
+                        <img src="" id="preview"/>
+                    </div>
+                    <div class="row">
+                        <input type="reset" value="Limpar">
+                        <input type="submit" value="Enviar" onclick="return validar()" >
+                    </div>
+                </form>
+            </div><!--fim da div conteúdo-->
+            <div class="footer">
+                <h2>Footer - Rodapé</h2>
+                <br/>
+                &COPY; Todos os direitos reservados. Lucas Dornelles.
+            </div>
+        </div><!--fim da div container-->
+    </body>
 </html>
